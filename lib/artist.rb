@@ -10,6 +10,10 @@ class Artist
     @songs << song
     song.artist = @name
   end
+
+  def artist
+    @name
+  end
 end
 
 class Song
