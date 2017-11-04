@@ -13,3 +13,7 @@ class Artist
 end
 
 class Song
+  def initialize
+    @name = name
+  end
+end
