@@ -11,3 +11,5 @@ class Artist
     @songs
   end
 end
+
+class Song
